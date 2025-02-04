@@ -1,0 +1,20 @@
+.mainpic {
+    object-fit: cover;
+    margin: 0;
+    height: 600px;
+    filter: brightness(70%);
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.food-blog-title {
+    position: relative;
+    top: -450px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: Arial; 
+    font-weight: bold;
+    text-shadow: 10px 10px 20px black;
+}
