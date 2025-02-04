@@ -1,0 +1,81 @@
+.menu-bar {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.left-section { 
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: Arial;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 350px;
+    margin-right: 250px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    flex-shrink: 0;
+}
+
+.search-bar {
+    flex: 1;
+    height: 44px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.20);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.search-button {
+    width: 70px;
+    height: 46px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.search-icon {
+    height: 50px;
+    width: 50px;
+    margin-top: -2px;
+}
+
+.homepage-icon {
+    height: 40px;
+}
+
+.dark-mode-toggle {
+    height: 60px;
+}
+
+.dark-mode-pfp {
+    height: 42px;
+    margin-top: 4px;
+}
